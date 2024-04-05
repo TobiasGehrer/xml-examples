@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE addresses SYSTEM "addresses.dtd">
 
 <addresses>
 		
@@ -15,10 +16,8 @@
 			<zip>6850</zip> 
 			<city>Dornbirn</city>		
 		</address>
-		<phone> 
-			<number type="private">06803240970</number>
-			<number type ="work">06801234567</number>
-		</phone>		
+		<phone type="mobile">06803240970</phone>  
+		<phone type ="work">06801234567</phone>				
 	</person>
 	
 	<person id="person-2">
