@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<addresses>
+		
+	<person id="person-1">
+		<firstname>Tobias</firstname>
+		<lastname>Gehrer</lastname>	
+		<address type="home">
+			<street>Römerstraße 9</street>
+			<zip>6973</zip> 
+			<city>Höchst</city>
+		</address>
+		<address type="university">
+			<street>Achstraße 1</street>
+			<zip>6850</zip> 
+			<city>Dornbirn</city>		
+		</address>
+		<phone> 
+			<number type="private">06803240970</number>
+			<number type ="work">06801234567</number>
+		</phone>		
+	</person>
+	
+	<person id="person-2">
+		<firstname>Regine</firstname>
+		<lastname>Kadgien</lastname>
+	</person>
+	
+	<company>
+		<company-name>Gehrer GmbH</company-name>
+		<address>
+			<street>Römerstraße 9</street>
+			<zip>6973</zip> 
+			<city>Höchst</city>
+		</address>
+		<employee person-id="person-1"/>
+	</company>
+
+
+	<company>
+		<company-name>FH Vorarlberg</company-name>
+		<address>
+			<street>Achstraße 1</street>
+			<zip>6850</zip> 
+			<city>Dornbirn</city>	
+		</address>
+		<employee person-id="person-1"/>
+		<employee person-id="person-2"/>
+	</company>
+	
+</addresses>
