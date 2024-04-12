@@ -4,12 +4,31 @@
 
 <!ELEMENT description (#PCDATA)>
 
-<!ELEMENT recipe (title,image,ingredient+,preparation,comment?,nutrition?)>
+<!ELEMENT author (#PCDATA)>
+<!ATTLIST author 
+	id ID #REQUIRED
+	title CDATA #IMPLIED
+>
+
+<!ELEMENT recipe (title,image,ingredient*,preparation*,comment?,nutrition?)>
 <!ATTLIST recipe
-  nr-of-persons CDATA #IMPLIED>
+  nr-of-persons CDATA #IMPLIED
+	author-id IDREF #IMPLIED  
+>
 
 <!ELEMENT title (#PCDATA)>
 <!ELEMENT image (#PCDATA)>
+
+<!ELEMENT ingredient (ingredient*, preparation*)>
+<!ATTLIST ingredient
+	name CDATA #REQUIRED
+	amount CDATA #IMPLIED
+	unit CDATA #IMPLIED
+>
+
+<!ELEMENT preparation (step)*>
+
+<!ELEMENT step (#PCDATA)>
 
 <!ELEMENT comment (#PCDATA)>
 
