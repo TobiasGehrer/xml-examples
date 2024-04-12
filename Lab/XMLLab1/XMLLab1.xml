@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<turnament>
+
+
+
+	<shooting-style id="BB-R">
+		<style-name>Barebow Recurve</style-name>
+	</shooting-style>
+	<shooting-style id="FS-C">
+		<style-name>Freestyle Limited Comp</style-name>
+	</shooting-style>
+	<shooting-style id="TR">
+		<style-name>Traditional Recurve Bow</style-name>
+	</shooting-style>
+
+	<!--  Group's -->
+	
+	<group id="Group-A-BB-R">
+		<start-time></start-time>
+		<end-time></end-time>
+		<location></location>
+		<shootingstyle shooting-style-id ="BB-R"></shootingstyle>
+		<person id="1-BBR-FSC"></person>		
+	</group>
+	
+	<group id="Group-B-BB-R">
+		<start-time></start-time>
+		<end-time></end-time>
+		<location></location>
+		<shootingstyle shooting-style-id ="BB-R"></shootingstyle>
+		<person id="2-BBR-FSC"></person>		
+	</group>
+	
+	<group id="Group-A-FS-C">
+		<start-time></start-time>
+		<end-time></end-time>
+		<location></location>
+		<shootingstyle shooting-style-id ="FS-C"></shootingstyle>
+		<person id="1-BBR-FSC"></person>		
+	</group>
+	
+	<group id="Group-B-FS-C">
+		<start-time></start-time>
+		<end-time></end-time>
+		<location></location>
+		<shootingstyle shooting-style-id ="FS-C"></shootingstyle>
+		<person id="1-BBR-FSC"></person>		
+	</group>
+	
+	<group id="Group-A-TR">
+		<start-time></start-time>
+		<end-time></end-time>
+		<location></location>
+		<shootingstyle shooting-style-id ="TR"></shootingstyle>
+		<person id="1-BBR-FSC"></person>		
+	</group>
+	
+	<group id="Group-B-TR">
+		<start-time></start-time>
+		<end-time></end-time>
+		<location></location>
+		<shootingstyle shooting-style-id ="TR"></shootingstyle>
+		<person id="1-BBR-FSC"></person>		
+	</group>
+	
+	
+	
+	
+	
+	<!--     Person's               -->
+	
+	
+	<person id="1-BBR-FSC">
+		<firstname>Robert</firstname>
+		<lastname>Roberts</lastname>
+		<birthyear>1962</birthyear>
+		<gender>M</gender>
+		<shootingstyle shooting-style-id ="BB-R"></shootingstyle>
+		<shootingstyle shooting-style-id ="FS-C"></shootingstyle>
+		<score shooting-style-id="BB-R">9999</score>
+		<score shooting-style-id="FS-C">9999</score>
+	</person>	
+	
+	
+
+</turnament>
